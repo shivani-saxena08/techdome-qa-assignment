@@ -1,0 +1,21 @@
+{
+  "name": "assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:e2e": "playwright test tests/e2e",
+    "test:integration": "playwright test tests/integration",
+    "test:security": "playwright test tests/security",
+    "test:load": "playwright test tests/load"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.2"
+  }
+}
